@@ -1,0 +1,80 @@
+*{
+    font-style: normal;
+    font-family: sans-serif;
+}
+Main{
+background-color: rgb(26, 26, 247);
+padding-left: 40px;
+padding-right: 40px;
+height: 550px;
+}
+.Content{
+ display: flex; 
+ justify-content: space-between;
+ padding-top: 10px;
+text-align: center;
+color: white;
+gap: 10px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    gap: 10px;
+}
+.best{
+    gap: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1{
+    color: white;
+    font-size: xx-large;
+}
+
+p{
+    color: white;
+}
+
+button{
+    color: white;
+    background-color: rgb(26, 206, 146);
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    border-color: transparent;
+}
+
+span{
+    border-bottom: 1px solid aqua;
+}
+
+.boy{
+    display: flex;
+    justify-content: space-between;
+}
+
+.man{
+    height: 400px;
+    width: 230px;
+    position: relative;
+    right: 250px;
+    border-radius: 20px;
+}
+
+.woman{
+    height: 400px;
+    width: 230px;
+    position: absolute;
+    bottom: 50px;
+    right: 100px;
+    border-radius: 20px;
+}
+
+.girl{
+    position: relative;
+}
+.job{
+    padding-bottom: 50px;
+}
